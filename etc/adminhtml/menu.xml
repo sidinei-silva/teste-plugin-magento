@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Sidineisilva_PrimeiroPluginMagento::pluginone" title="Sidinei" translate="title" module="Sidineisilva_PrimeiroPluginMagento" sortOrder="90" dependsOnModule="Sidineisilva_PrimeiroPluginMagento" resource="Sidineisilva_PrimeiroPluginMagento::pluginone"/>
-        <add id="Sidineisilva_PrimeiroPluginMagento::news" title="News" translate="title" module="Sidineisilva_PrimeiroPluginMagento" parent="Sidineisilva_PrimeiroPluginMagento::pluginone" sortOrder="50" dependsOnModule="Sidineisilva_PrimeiroPluginMagento" resource="Sidineisilva_PrimeiroPluginMagento::news"/>
-        <add id="Sidineisilva_PrimeiroPluginMagento::news_allnews" title="All News" translate="title" module="Sidineisilva_PrimeiroPluginMagento" parent="Sidineisilva_PrimeiroPluginMagento::news" sortOrder="10" dependsOnModule="Sidineisilva_PrimeiroPluginMagento" action="news/allnews" resource="Sidineisilva_PrimeiroPluginMagento::news_allnews"/>
+        <add id="SidineiSilva_PrimeiroPluginMagento::pluginone" title="Sidinei" translate="title" module="SidineiSilva_PrimeiroPluginMagento" sortOrder="90" dependsOnModule="SidineiSilva_PrimeiroPluginMagento" resource="SidineiSilva_PrimeiroPluginMagento::pluginone"/>
+        <add id="SidineiSilva_PrimeiroPluginMagento::news" title="News" translate="title" module="SidineiSilva_PrimeiroPluginMagento" parent="SidineiSilva_PrimeiroPluginMagento::pluginone" sortOrder="50" dependsOnModule="SidineiSilva_PrimeiroPluginMagento" resource="SidineiSilva_PrimeiroPluginMagento::news"/>
+        <add id="SidineiSilva_PrimeiroPluginMagento::news_allnews" title="All News" translate="title" module="SidineiSilva_PrimeiroPluginMagento" parent="SidineiSilva_PrimeiroPluginMagento::news" sortOrder="10" dependsOnModule="SidineiSilva_PrimeiroPluginMagento" action="news/allnews" resource="SidineiSilva_PrimeiroPluginMagento::news_allnews"/>
     </menu>
 </config>
