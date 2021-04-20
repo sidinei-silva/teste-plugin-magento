@@ -1,5 +1,5 @@
 {
-  "name": "sidinei-silva/plugin-one",
+  "name": "sidinei-silva/primeiro-plugin-magento",
   "description": "description",
   "minimum-stability": "dev",
   "license": "proprietary",
@@ -16,7 +16,7 @@
   "autoload": {
     "files": ["registration.php"],
     "psr-4": {
-      "PluginOne\\": ""
+      "Sidineisilva\\PrimeiroPluginMagento\\": ""
     }
   }
 
