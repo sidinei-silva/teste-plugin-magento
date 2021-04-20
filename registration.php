@@ -1,7 +1,7 @@
 <?php
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'PluginOne',
+    'SidineiSilva_PrimeiroPluginMagento',
     __DIR__
 );
 ?>
