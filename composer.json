@@ -1,0 +1,23 @@
+{
+  "name": "sidinei-silva/plugin-one",
+  "description": "description",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "sidin",
+      "email": "sidinei.silva02@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "~5.6|7.*"
+  },
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "PluginOne\\": ""
+    }
+  }
+
+}
