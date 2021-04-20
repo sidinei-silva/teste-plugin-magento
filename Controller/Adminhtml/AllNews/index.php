@@ -1,5 +1,5 @@
 <?php
-namespace Rsgitech\News\Controller\Adminhtml\AllNews;
+namespace SidineiSilva\PrimeiroPluginMagento\Controller\Adminhtml\AllNews;
 class Index extends \Magento\Backend\App\Action
 {
     protected $resultPageFactory;
